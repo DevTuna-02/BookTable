@@ -1,12 +1,12 @@
-import Nav from './Nav';
-import footlogo from './assets/footlogo.svg';
+import Fnav from './Fnav';
+import footlogo from '../assets/footlogo.svg';
 function Footer() {
     return(
         <footer>
             <img src={footlogo} alt="Little Lemon Logo" width="147" height="260"/>
             <div>
                 <h2>Doormat Navigation</h2>
-                <Nav/>
+                <Fnav/>
             </div>
             <div>
                 <h2>Contact</h2>

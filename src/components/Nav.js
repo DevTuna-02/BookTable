@@ -1,28 +1,29 @@
-
+import {Link} from 'react-router-dom';
 function Nav() {
     return(
         <nav>
             <ul>
-                <li>
-                    <a href="www.google.com">HOME</a>
+            <li>
+                    <Link to='/'>HOME</Link>
                     </li>
                     <li>
-                    <a href="www.google.com">MENU</a>
+                    <Link to='/'>MENU</Link>
                 </li>
                 <li>
-                <a href="www.google.com">ABOUT</a>
+                <Link to='/'>ABOUT</Link>
                 </li>
                 <li>
-            <a href="www.google.com">RESERVATIONS</a>
+                <Link to='/'>RESERVATIONS</Link>
                 </li>
                 <li>
-                <a href="www.google.com">ORDER ONLINE</a>
+                <Link to='/'>ORDER ONLINE</Link>
                 </li>
                 <li>
-                <a href="www.google.com">LOGIN</a>
+                <Link to='/'>LOGIN</Link>
                 </li>
             </ul>
         </nav>
+        
     )
 }
 

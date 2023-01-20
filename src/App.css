@@ -1,38 +1,276 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&family=Markazi+Text:wght@400;500;600;700&display=swap');
+header{
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+  height:5vw;
+  padding: 0 15%;
+  margin: 0 5%;
+}
+header nav{
+  width: 70%;
+  padding:0;
+  margin:0;
+}
+header nav ul{
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin:0;
+  padding:0;
+  list-style: none;
+}
+ul a{
+  color: #000000;
+  text-decoration: none;
+}
+.hero{
+  overflow: hidden;
+  width:100vw;
+  height:auto;
+  padding-bottom: 2em;
+  background-color: #495E57;
+}
+
+h1{
+  margin:0.2em 0;
+  margin-left: 20%;
+  font-family: 'Markazi Text', serif;
+  font-size: 64px;
+  font-weight: normal;
+  color:#F4CE14;
+}
+.hero img{
+  width: 60vw;
+  height:18vw;
+  margin: 0 20%;
+}
+.form{
+  padding: 0 15%;
+  margin: 0 5%;
+  margin-bottom: 2em;
+}
+#prog{
+  display: flex;
+  margin:1.75% 20%;
+  align-items: center;
+  justify-content: space-evenly;
+}
+#prog div{
+  width:1.25em;
+  height: 1.25em;
+  font-size: 1.25em;
   text-align: center;
+  border-radius: 50%;
+  border: #000000 2px solid;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+form{
   display: flex;
   flex-direction: column;
+}
+form h2{
+  margin-top: 0;
+}
+.colWrap,.confirmBox{
+  display: flex;
+}
+.confirmBox{
+  margin-bottom: 2em;
+}
+.confirmBox p, .confirmBox fieldset,.col1,.col2{
+width: 50%;
+}
+.colWrap>div>label,fieldset{
+  display: block;
+  margin-bottom: 2em;
+}
+label>input,.radioBox,select{
+  height: 2.25em;
+  width: 55%;
+  text-align: center;
+}
+input[type="number"]{
+  width: 10%;
+}
+.radioBox{
+
+  display: flex;
+  justify-content: space-between;
+}
+textarea{
+  width: 90%;
+  height:14em;
+}
+.radioBox div{
+  display: flex;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+fieldset{
+  border:none;
+  padding: 0;
+  margin: 0;
+}
+label>input, select, textarea{
+  margin-top:0.8em;
+}
+label,legend{
+  font-family: 'Karla', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+}
+.radioBox label,input,textarea, option,select, .formButtons button{
+  font-family: 'Karla', sans-serif;
+  font-weight: normal;
+  font-size: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+h2{
+  font-family: 'Karla', sans-serif;
+  font-weight:bold;
+  font-size: 40px;
+}
+.errorMessage{
+  font-family: 'Karla', sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  color:red;
+}
+.finishBox{
+  display: flex;
+  align-items: center;
+  justify-content:space-evenly;
+  margin-bottom: 2em;
+}
+.finishBox p{
+  width: 30%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.finishBox img{
+  width: 34%;
+  height: 34%;
+}
+.formButtons{
+  display: flex;
+  align-items: center;
+  height: 5em;
+}
+.formButtons button{
+  width:16%;
+  height: 2.8em;
+  color:#EDEFEE;
+  background-color: #333333;
+  border: none;
+  border-radius: 0.25em;
+}
+.submit:disabled{
+  color:#333333;
+  background-color: #EDEFEE;
+}
+.formButtons button:hover,.formButtons button:focus,.submit:hover,.submit:focus{
+  color:#333333;
+  background-color: #EDEFEE;
+}
+input:focus,textarea:focus, select:focus{
+  outline: aqua 1.5px solid;
+}
+.home{
+  width:10em;
+  height: 2.8em;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  color:#EDEFEE;
+  background-color: #333333;
+  text-decoration: none;
+  border-radius: 0.25em;
+}
+sup{
+  color:red;
+}
+footer{
+  display: flex;
+  justify-content: space-between;
+  padding: 0 15%;
+  margin: 0 5%;
+}
+footer h2{
+  font-family: 'Karla', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+}
+footer ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+nav a:focus, nav a:hover{
+  font-weight: bolder;
+}
+@media screen and (max-width:1200px){
+  header{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height:5vw;
+    padding: 0;
+    margin: 5%;
   }
-  to {
-    transform: rotate(360deg);
+  header nav{
+    width: 100%;
+    padding:0;
+    margin:0;
+  }
+  .hero img{
+    width: 100vw;
+    height:40vw;
+    margin:0;
+  }
+  h1{
+    margin:0 auto;
+    text-align: center;
+  }
+  #prog{
+    margin:5% auto;
+  }
+  .form{
+   margin:0;
+}
+.colWrap,.confirmBox{
+  flex-direction: column;
+}
+.confirmBox p, .confirmBox fieldset,.col1,.col2{
+  width: 100%;
+  }
+  label>input,.radioBox,select{
+    height: 2.25em;
+    width: 60%;
+    text-align: center;
+  }
+  input[type="number"]{
+    width: 20%;
+  }
+  form h2{
+    text-align: center;
+  }
+  .formButtons button{
+    width:30%;
+    height: 2.8em;
+    color:#EDEFEE;
+    background-color: #333333;
+    border: none;
+    border-radius: 0.25em;
+  }
+  .confirmBox{
+    margin-top: -1.5em;
+  }
+  footer{
+    display: flex;
+    flex-direction: column;
+    padding: 0 15%;
+  }
+  footer img{
+    margin:0 auto;
   }
 }
