@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.bf918579.css",
-    "main.js": "/static/js/main.bef9e5db.js",
-    "static/js/787.060b0485.chunk.js": "/static/js/787.060b0485.chunk.js",
-    "static/media/footlogo.svg": "/static/media/footlogo.6f8a939c0d74dc727b2966cac8861547.svg",
-    "static/media/outdoors.png": "/static/media/outdoors.dfb27d6d8c728996fdfb.png",
-    "static/media/Logo.svg": "/static/media/Logo.6c132dfefa69396bba43f72aa595e62f.svg",
-    "static/media/home icon.svg": "/static/media/home icon.fa875b8ebddfa88cc6c1d081b10fd720.svg",
-    "index.html": "/index.html",
-    "static/media/check.svg": "/static/media/check.b4ff3ddad3ba89ba0299b332da0d93af.svg",
-    "main.bf918579.css.map": "/static/css/main.bf918579.css.map",
-    "main.bef9e5db.js.map": "/static/js/main.bef9e5db.js.map",
-    "787.060b0485.chunk.js.map": "/static/js/787.060b0485.chunk.js.map"
+    "main.css": "/BookTable/static/css/main.bf918579.css",
+    "main.js": "/BookTable/static/js/main.2016f13a.js",
+    "static/js/787.060b0485.chunk.js": "/BookTable/static/js/787.060b0485.chunk.js",
+    "static/media/footlogo.svg": "/BookTable/static/media/footlogo.6f8a939c0d74dc727b2966cac8861547.svg",
+    "static/media/outdoors.png": "/BookTable/static/media/outdoors.dfb27d6d8c728996fdfb.png",
+    "static/media/Logo.svg": "/BookTable/static/media/Logo.6c132dfefa69396bba43f72aa595e62f.svg",
+    "static/media/home icon.svg": "/BookTable/static/media/home icon.fa875b8ebddfa88cc6c1d081b10fd720.svg",
+    "index.html": "/BookTable/index.html",
+    "static/media/check.svg": "/BookTable/static/media/check.b4ff3ddad3ba89ba0299b332da0d93af.svg",
+    "main.bf918579.css.map": "/BookTable/static/css/main.bf918579.css.map",
+    "main.2016f13a.js.map": "/BookTable/static/js/main.2016f13a.js.map",
+    "787.060b0485.chunk.js.map": "/BookTable/static/js/787.060b0485.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bf918579.css",
-    "static/js/main.bef9e5db.js"
+    "static/js/main.2016f13a.js"
   ]
 }
