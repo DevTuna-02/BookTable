@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/BookTable/static/css/main.bf918579.css",
-    "main.js": "/BookTable/static/js/main.e54e2879.js",
+    "main.js": "/BookTable/static/js/main.2016f13a.js",
     "static/js/787.060b0485.chunk.js": "/BookTable/static/js/787.060b0485.chunk.js",
     "static/media/footlogo.svg": "/BookTable/static/media/footlogo.6f8a939c0d74dc727b2966cac8861547.svg",
     "static/media/outdoors.png": "/BookTable/static/media/outdoors.dfb27d6d8c728996fdfb.png",
@@ -10,11 +10,11 @@
     "index.html": "/BookTable/index.html",
     "static/media/check.svg": "/BookTable/static/media/check.b4ff3ddad3ba89ba0299b332da0d93af.svg",
     "main.bf918579.css.map": "/BookTable/static/css/main.bf918579.css.map",
-    "main.e54e2879.js.map": "/BookTable/static/js/main.e54e2879.js.map",
+    "main.2016f13a.js.map": "/BookTable/static/js/main.2016f13a.js.map",
     "787.060b0485.chunk.js.map": "/BookTable/static/js/787.060b0485.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bf918579.css",
-    "static/js/main.e54e2879.js"
+    "static/js/main.2016f13a.js"
   ]
 }
